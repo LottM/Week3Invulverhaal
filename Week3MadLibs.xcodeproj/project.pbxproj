@@ -14,6 +14,7 @@
 		53B66FAB1BF0EF900072DBD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B66FA91BF0EF900072DBD0 /* LaunchScreen.storyboard */; };
 		53B66FB61BF0EF900072DBD0 /* Week3MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B66FB51BF0EF900072DBD0 /* Week3MadLibsTests.swift */; };
 		53B66FC11BF0EF900072DBD0 /* Week3MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B66FC01BF0EF900072DBD0 /* Week3MadLibsUITests.swift */; };
+		53B6704D1BF39BC10072DBD0 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B6704C1BF39BC10072DBD0 /* WordsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		53B66FBC1BF0EF900072DBD0 /* Week3MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week3MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B66FC01BF0EF900072DBD0 /* Week3MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3MadLibsUITests.swift; sourceTree = "<group>"; };
 		53B66FC21BF0EF900072DBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B6704C1BF39BC10072DBD0 /* WordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				53B66FA01BF0EF900072DBD0 /* AppDelegate.swift */,
 				53B66FA21BF0EF900072DBD0 /* ViewController.swift */,
+				53B6704C1BF39BC10072DBD0 /* WordsViewController.swift */,
 				53B66FA41BF0EF900072DBD0 /* Main.storyboard */,
 				53B66FA71BF0EF900072DBD0 /* Assets.xcassets */,
 				53B66FA91BF0EF900072DBD0 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B6704D1BF39BC10072DBD0 /* WordsViewController.swift in Sources */,
 				53B66FA31BF0EF900072DBD0 /* ViewController.swift in Sources */,
 				53B66FA11BF0EF900072DBD0 /* AppDelegate.swift in Sources */,
 			);
