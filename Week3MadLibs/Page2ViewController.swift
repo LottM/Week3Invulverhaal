@@ -10,6 +10,19 @@ import UIKit
 
 class Page2ViewController: UIViewController {
 
+    @IBOutlet weak var userInput: UITextField!
+    
+    // Onthoud alle waarden, ook na afsluiten.
+    let defaults = NSUserDefaults.standardUserDefaults()
+    
+    if defaults.arrayForKey("userInput") != nil {
+        var temp = defaults.arrayForKey("userInput")
+        temp.append(dataFromPage2ViewControl)
+        defaults.setObject(temp, forKey: "userInput")
+    }
+    else {
+        defaults.setObject(dataFromPage2ViewController, forKey: "userInput")
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
