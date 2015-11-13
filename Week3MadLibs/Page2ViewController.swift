@@ -12,9 +12,10 @@ class Page2ViewController: UIViewController {
 
     @IBOutlet weak var userInput: UITextField!
     
-    // Onthoud alle waarden, ook na afsluiten.
+    // Remember the input, even after quitting the game.
     let defaults = NSUserDefaults.standardUserDefaults()
-    
+
+    // Append data from user to array where all the data is stored.
     if defaults.arrayForKey("userInput") != nil {
         var temp = defaults.arrayForKey("userInput")
         temp.append(dataFromPage2ViewControl)
@@ -23,7 +24,14 @@ class Page2ViewController: UIViewController {
     else {
         defaults.setObject(dataFromPage2ViewController, forKey: "userInput")
     }
-    override func viewDidLoad() {
+    
+    // Get data from user.
+    let userInput = defaults.arrayForKey("userInput")
+    let userInputDefaults.text = userInput.descriptionoverride
+    
+    override func prepareForSegue()
+    func viewDidLoad() {
+        super.viewDidLoad()
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
