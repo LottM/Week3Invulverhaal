@@ -22,10 +22,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="center" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZKD-BZ-shB">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="56"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9i3-8w-TMk">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="56"/>
                                                 <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -34,10 +34,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tuT-n8-kOP">
-                                        <rect key="frame" x="0.0" y="49" width="600" height="63"/>
+                                        <rect key="frame" x="0.0" y="61" width="600" height="82"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZY8-GH-6aE">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="63"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="82"/>
                                                 <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <string key="text">Hoe werkt het? Geef de ontbrekende woorden en lees vervolgens het complete verhaal met jouw ingevulde woorden! Klik op de knop onderaan om te beginnen met invullen.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -47,18 +47,18 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Wdc-lk-Dle">
-                                        <rect key="frame" x="0.0" y="117" width="600" height="446"/>
+                                        <rect key="frame" x="0.0" y="148" width="600" height="402"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="chatting" translatesAutoresizingMaskIntoConstraints="NO" id="m18-jx-7kS">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="446"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="402"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aFt-Cr-D9Z">
-                                        <rect key="frame" x="0.0" y="568" width="600" height="32"/>
+                                        <rect key="frame" x="0.0" y="555" width="600" height="45"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTj-kK-mUL">
-                                                <rect key="frame" x="0.0" y="0.0" width="600" height="32"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="45"/>
                                                 <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="Start">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -117,7 +117,7 @@
                                     <stackView opaque="NO" contentMode="center" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="4Ga-Yf-d6r">
                                         <rect key="frame" x="0.0" y="188" width="600" height="91"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noem een zelfstandig naamwoord" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5S-z1-a3G">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noem een bijvoeglijk naamwoord" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5S-z1-a3G">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="91"/>
                                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -129,7 +129,7 @@
                                     <stackView opaque="NO" contentMode="center" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jmM-ok-nht">
                                         <rect key="frame" x="0.0" y="284" width="600" height="130"/>
                                         <subviews>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xWL-OF-AOb">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een bijvoeglijk naamwoord" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xWL-OF-AOb">
                                                 <rect key="frame" x="0.0" y="0.0" width="600" height="130"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -145,7 +145,7 @@
                                                     <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" id="FlK-Xn-fTH"/>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="slide1Back" id="FlK-Xn-fTH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cHx-Ba-C7v">
@@ -154,7 +154,7 @@
                                                     <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="aip-bR-azf" kind="presentation" id="Lbf-Gf-HBS"/>
+                                                    <segue destination="lZL-0C-axn" kind="presentation" identifier="slide1Next" id="tvI-zQ-Vcg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -176,7 +176,654 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5jY-A5-fb4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="253" y="1144"/>
+            <point key="canvasLocation" x="253" y="1012"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aeb-NF-fpQ">
+            <objects>
+                <viewController id="lZL-0C-axn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LvR-XE-1KU"/>
+                        <viewControllerLayoutGuide type="bottom" id="MCT-XV-4hG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CUU-zE-rgA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3o7-tZ-uVL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Je twee beste vriendinnen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IwT-rv-6W3">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Je twee beste vriendinnen" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DEP-pF-PFi">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="center" fixedFrame="YES" distribution="fillProportionally" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="xuZ-bn-Ljv">
+                                <rect key="frame" x="-129" y="389" width="66" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTy-kW-pum">
+                                        <rect key="frame" x="0.0" y="0.0" width="34" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7E-FI-89J">
+                                        <rect key="frame" x="34" y="0.0" width="32" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HcE-CW-qck">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJh-na-Mnb">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="8Ln-ND-jrF" kind="presentation" identifier="slide2Back" id="GnO-m6-b51"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDw-TR-q6b">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BUV-ve-aSY" kind="presentation" identifier="slide2Next" id="djp-Cn-t74"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6LQ-Ch-q3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="1750"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fvs-Pu-vHS">
+            <objects>
+                <viewController id="BUV-ve-aSY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sqH-gx-8BC"/>
+                        <viewControllerLayoutGuide type="bottom" id="UIr-4E-3bn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1D8-CN-Hg0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyj-TT-8wM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een zelfstandig naamwoord" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfh-Ym-Mh8">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een zelfstandig naamwoord" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sgN-1t-XOv">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tpN-hE-Nho">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khp-Z5-FLD">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="lZL-0C-axn" kind="presentation" identifier="slide3Back" id="jro-fM-qGz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbU-iz-o0m">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ob4-QN-yJi" kind="presentation" identifier="slide3Next" id="rzE-rL-zMZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gOC-Wf-jWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="2426"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="B9m-z6-qc2">
+            <objects>
+                <viewController id="ob4-QN-yJi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DPn-NL-Hwk"/>
+                        <viewControllerLayoutGuide type="bottom" id="C7I-9l-ZNs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gdq-jn-vpC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJn-AE-u1P">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een zelfstandig naamwoord" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf3-h2-1YA">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een zelfstandig naamwoord" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="baJ-lo-6sB">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wrI-gD-j0E">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2p-N3-Hv2">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BUV-ve-aSY" kind="presentation" identifier="slide4Back" id="OW2-Z2-Vcz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kh0-cJ-OVC">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="52T-lr-i8u" kind="presentation" identifier="slide4Next" id="fDh-Zf-0r5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z6V-ZO-0mu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="3156"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uAO-Xa-lKl">
+            <objects>
+                <viewController id="52T-lr-i8u" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1bp-fm-SAm"/>
+                        <viewControllerLayoutGuide type="bottom" id="u4b-Y4-yJz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tkv-Hd-EI5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9he-fQ-Ir8">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een ledemaat" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEI-0V-6dt">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een ledemaat" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gNG-nk-GBM">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lqz-Tn-3Lh">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKH-hd-vqW">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="ob4-QN-yJi" kind="presentation" identifier="slide5Back" id="3OH-HG-PMc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dG-vE-1br">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="9HI-v0-8MG" kind="presentation" identifier="slide5Next" id="WaP-hR-6SV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oMt-sl-s3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="3854"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ntO-GV-jGK">
+            <objects>
+                <viewController id="9HI-v0-8MG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N1W-h2-Hra"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pqt-8D-Bn9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kc7-0t-Plu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bN-uJ-Flx">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een werkwoord" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVA-2Q-2pZ">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een werkwoord" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PfO-e7-VWu">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OZV-Am-dGR">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOh-dl-ePT">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="52T-lr-i8u" kind="presentation" identifier="slide6Back" id="S9F-Lm-k2H"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60X-tY-P7d">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0lN-wZ-egb" kind="presentation" identifier="slide6Next" id="7WO-VL-8py"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gnk-Wg-TDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="4544"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cnh-RF-tZc">
+            <objects>
+                <viewController id="0lN-wZ-egb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zJn-pl-iBf"/>
+                        <viewControllerLayoutGuide type="bottom" id="3sb-v8-SZx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cX8-VY-Bte">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4h-7M-IDh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een getal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCZ-cV-XFO">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een getal" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pw9-lQ-MvH">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uut-ap-dhd">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ur-XX-YEb">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="9HI-v0-8MG" kind="presentation" identifier="slide7Back" id="ozn-N6-NIF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccc-PI-BZj">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="1qB-KC-9yz" kind="presentation" identifier="slide7Next" id="gGw-D8-v1c"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIZ-7J-EGc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="5260"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JgW-lQ-Qj4">
+            <objects>
+                <viewController id="1qB-KC-9yz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MlD-42-LBk"/>
+                        <viewControllerLayoutGuide type="bottom" id="LcE-7Y-RQJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0E6-pT-3gY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqx-fB-0FL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een ver land" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NX8-ee-OMK">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een ver land" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Js-6T-qAT">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8G2-HU-Zt7">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFz-gX-tN9">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="0lN-wZ-egb" kind="presentation" identifier="slide8Back" id="3La-t4-RA9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Of5-v2-6k9">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="u8u-xs-TfD" kind="presentation" identifier="slide8Next" id="8Ra-5o-b9v"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="00f-6Y-qg0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="5950"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ExG-wx-jEB">
+            <objects>
+                <viewController id="u8u-xs-TfD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cwR-qk-t0X"/>
+                        <viewControllerLayoutGuide type="bottom" id="SPh-Tb-r7F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s2A-m7-z5c">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6u9-IN-nEg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een soort tas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AgA-0Z-Tbi">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een soort tas" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0hj-hG-eVs">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1iX-D7-76N">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdC-BQ-Szn">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="1qB-KC-9yz" kind="presentation" identifier="slide9Back" id="reN-Ew-6x0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQv-Py-blp">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="6H9-IL-a6K" kind="presentation" identifier="slide9Next" id="4xm-0N-MH4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ex5-K5-2nA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="6650"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8a7-ZV-Eol">
+            <objects>
+                <viewController id="6H9-IL-a6K" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1au-PN-ubz"/>
+                        <viewControllerLayoutGuide type="bottom" id="g3x-FB-mZ7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gPH-dx-V4L">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wRZ-O8-5gz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem je favoriete knuffel van toen je twee jaar was" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38H-oR-Ghr">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Je favoriete knuffel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CLe-vD-kA7">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1iG-jY-Rev">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f5N-AS-YaU">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="u8u-xs-TfD" kind="presentation" identifier="slide10Back" id="ABE-3J-i2s"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZ8-28-ts2">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="R9p-Qn-hdV" kind="presentation" identifier="slide10Next" id="Gi2-Bg-pr2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fUW-MT-jlD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="7352"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="afs-JU-XFI">
+            <objects>
+                <viewController id="R9p-Qn-hdV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JgY-uR-jP2"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nmc-rb-wgd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jTv-Fq-zhq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubD-jx-Xfz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Noem een heel vies drankje" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teR-nC-3u4">
+                                <rect key="frame" x="0.0" y="191" width="600" height="91"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Een heel vies drankje" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jLq-U6-stc">
+                                <rect key="frame" x="0.0" y="290" width="600" height="130"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JkF-po-gAZ">
+                                <rect key="frame" x="0.0" y="428" width="600" height="152"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="bottom" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="plU-QE-RJv">
+                                        <rect key="frame" x="8" y="114" width="309" height="30"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="6H9-IL-a6K" kind="presentation" identifier="slide11Back" id="3wk-HO-49l"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePV-Yy-ZOW">
+                                        <rect key="frame" x="309" y="114" width="291" height="30"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="aip-bR-azf" kind="presentation" identifier="slide11Next" id="Ve3-H2-mht"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.6159545515" blue="0.59340689410000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AyD-pu-THi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="253" y="8060"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Erp-33-oqG">
@@ -197,19 +844,48 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="coi-Uh-Hx4"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invulverhaal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Il5-Bm-5u4">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="183"/>
+                                <color key="backgroundColor" red="1" green="0.3724036302" blue="0.37839165419999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XBA-Xd-8Sx">
+                                <rect key="frame" x="0.0" y="191" width="600" height="363"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fs2-Pm-or6">
+                                        <rect key="frame" x="279" y="8" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z44-Cx-8A2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="253" y="1946"/>
+            <point key="canvasLocation" x="253" y="8789"/>
         </scene>
     </scenes>
     <resources>
         <image name="chatting" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FlK-Xn-fTH"/>
+        <segue reference="3OH-HG-PMc"/>
+        <segue reference="S9F-Lm-k2H"/>
+        <segue reference="ozn-N6-NIF"/>
+        <segue reference="3La-t4-RA9"/>
+        <segue reference="reN-Ew-6x0"/>
+        <segue reference="ABE-3J-i2s"/>
+        <segue reference="3wk-HO-49l"/>
+        <segue reference="coi-Uh-Hx4"/>
+        <segue reference="OW2-Z2-Vcz"/>
+        <segue reference="tvI-zQ-Vcg"/>
+        <segue reference="GnO-m6-b51"/>
     </inferredMetricsTieBreakers>
 </document>
