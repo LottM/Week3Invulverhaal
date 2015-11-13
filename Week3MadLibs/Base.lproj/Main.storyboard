@@ -88,6 +88,24 @@
             <point key="canvasLocation" x="253" y="299"/>
         </scene>
         <!--Page2 View Controller-->
+        <scene sceneID="dc9-WV-TqQ">
+            <objects>
+                <viewController id="fxQ-pK-WNk" customClass="Page2ViewController" customModule="Week3MadLibs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fav-VY-7YC"/>
+                        <viewControllerLayoutGuide type="bottom" id="JKH-ok-L2l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ugT-2X-rv0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ZQ-rw-EG0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-613" y="1045"/>
+        </scene>
+        <!--Page2 View Controller-->
         <scene sceneID="YnN-Ka-QAo">
             <objects>
                 <viewController id="8Ln-ND-jrF" customClass="Page2ViewController" customModule="Week3MadLibs" customModuleProvider="target" sceneMemberID="viewController">
@@ -883,9 +901,9 @@
         <segue reference="reN-Ew-6x0"/>
         <segue reference="ABE-3J-i2s"/>
         <segue reference="3wk-HO-49l"/>
-        <segue reference="coi-Uh-Hx4"/>
         <segue reference="OW2-Z2-Vcz"/>
+        <segue reference="FlK-Xn-fTH"/>
+        <segue reference="BkS-EO-j8o"/>
         <segue reference="tvI-zQ-Vcg"/>
-        <segue reference="GnO-m6-b51"/>
     </inferredMetricsTieBreakers>
 </document>
