@@ -28,9 +28,7 @@ class Page2ViewController: UIViewController {
     
     // Get data from user.
     let userInput = defaults.arrayForKey("userInput")
-    let userInputDefaults.text = userInput.descriptionoverride
-    
-    // override func prepareForSegue()
+    let userInputDefaults.text = userInput.descriptionOverride
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +40,11 @@ class Page2ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let FinalViewController : Page2ViewController = segue.destinationViewController as! Page2ViewController
+        FinalViewController.labelFirstWord = userInput.text!
     }
     
 
