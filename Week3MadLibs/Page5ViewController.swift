@@ -18,12 +18,12 @@ class Page5ViewController: UIViewController {
     
     // Append data from user to array where all the data is stored.
     if defaults.arrayForKey("userInput4") != nil {
-    var temp = defaults.arrayForKey("userInput4")
-    temp.append(dataFromPage5ViewControl)
-    defaults.setObject(temp, forKey: "userInput4")
+        var temp = defaults.arrayForKey("userInput4")
+        temp.append(dataFromPage5ViewControl)
+        defaults.setObject(temp, forKey: "userInput4")
     }
     else {
-    defaults.setObject(dataFromPage5ViewController, forKey: "userInput")
+        defaults.setObject(dataFromPage5ViewController, forKey: "userInput")
     }
     
     // Get data from user.

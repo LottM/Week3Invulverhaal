@@ -22,36 +22,29 @@ class _ViewController: UIViewController {
             var temp = defaults.arrayForKey("userInput")
             temp.append(dataFromPage3ViewControl)
             defaults.setObject(temp, forKey: "userInput")
-        }
-        else {
+        } else {
             defaults.setObject(dataFromPage3ViewController, forKey: "userInput")
         }
         
         // Get data from user.
-        let userInput2 = defaults.arrayForKey("userInput2")
-        let userInputDefaults.text = userInput2.descriptionOverride
+        let textSecondWord = defaults.arrayForKey("textSecondWord")
+        let labelSecondword.text = textSecondWord.descriptionOverride
         
-        override func viewDidLoad() {
-            super.viewDidLoad()
-            super.viewDidLoad()
-            
-            // Do any additional setup after loading the view.
-        }
-        
-        override func didReceiveMemoryWarning() {
+        // Receive memory warning.
+        func didReceiveMemoryWarning() {
             super.didReceiveMemoryWarning()
             // Dispose of any resources that can be recreated.
         }
         
+        // Use segue.
         override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
             let FinalViewController : Page3ViewController = segue.destinationViewController as! Page3ViewController
-            FinalViewController.labelSecondWord = userInput2.text!
+            FinalViewController.textSecondWord = labelSecondWord.text!
         }
         
-        
+        // Load.
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
 

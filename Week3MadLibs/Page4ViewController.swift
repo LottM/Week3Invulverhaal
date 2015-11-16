@@ -18,12 +18,11 @@ class WordsViewController: UIViewController {
     
     // Append data from user to array where all the data is stored.
     if defaults.arrayForKey("userInput3") != nil {
-    var temp = defaults.arrayForKey("userInput3")
-    temp.append(dataFromPage4ViewControl)
-    defaults.setObject(temp, forKey: "userInput3")
-    }
-    else {
-    defaults.setObject(dataFromPage4ViewController, forKey: "userInput3")
+        var temp = defaults.arrayForKey("userInput3")
+        temp.append(dataFromPage4ViewControl)
+        defaults.setObject(temp, forKey: "userInput3")
+    } else {
+        defaults.setObject(dataFromPage4ViewController, forKey: "userInput3")
     }
     
     // Get data from user.

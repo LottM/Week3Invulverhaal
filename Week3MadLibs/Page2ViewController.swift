@@ -21,8 +21,7 @@ class Page2ViewController: UIViewController {
         var temp = defaults.arrayForKey("userInput")
         temp.append(dataFromPage2ViewControl)
         defaults.setObject(temp, forKey: "userInput")
-    }
-    else {
+    } else {
         defaults.setObject(dataFromPage2ViewController, forKey: "userInput")
     }
     
@@ -44,7 +43,7 @@ class Page2ViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let FinalViewController : Page2ViewController = segue.destinationViewController as! Page2ViewController
-        FinalViewController.labelFirstWord = userInput.text!
+        FinalViewController.textFirstWord = labelFirstWord.text!
     }
     
 

@@ -10,9 +10,25 @@ import UIKit
 
 class FinalViewController: UIViewController {
     @IBOutlet weak var labelFirstWord: UILabel!
+    @IBOutlet weak var labelSecondWord: UILabel!
+    @IBOutlet weak var labelThirdWord: UILabel!
+    @IBOutlet weak var labelFourthWord: UILabel!
+    @IBOutlet weak var labelFifthWord: UILabel!
+    
+    var textFirstWord = String()
+    var textSecondWord = String()
+    var textThirdWord = String()
+    var textFourthWord = String()
+    var textFifthWord = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        labelFirstWord.text = textFirstWord
+        labelSecondWord.text = textSecondWord
+        labelThirdWord.text = textThirdWord
+        labelFourthWord.text = textFourthWord
+        labelFifthWord.text = textFifthWord
 
         // Do any additional setup after loading the view.
     }
