@@ -1,5 +1,5 @@
 //
-//  Page2ViewController.swift
+//  WordsViewController.swift
 //  Week3MadLibs
 //
 //  Created by Lotte van der Molen on 11/11/15.
@@ -8,44 +8,45 @@
 
 import UIKit
 
-class Page2ViewController: UIViewController {
-
-    @IBOutlet weak var userInput: UITextField!
+class WordsViewController: UIViewController {
+    
+    @IBOutlet weak var userInput3: UITextField!
     
     // Remember the input, even after quitting the game.
     let defaults = NSUserDefaults.standardUserDefaults()
-    defaults.setObject(userInput, forKey)
-
+    defaults.setObject(userInput3, forKey)
+    
     // Append data from user to array where all the data is stored.
-    if defaults.arrayForKey("userInput") != nil {
-        var temp = defaults.arrayForKey("userInput")
-        temp.append(dataFromPage2ViewControl)
-        defaults.setObject(temp, forKey: "userInput")
+    if defaults.arrayForKey("userInput3") != nil {
+    var temp = defaults.arrayForKey("userInput3")
+    temp.append(dataFromPage4ViewControl)
+    defaults.setObject(temp, forKey: "userInput3")
     }
     else {
-        defaults.setObject(dataFromPage2ViewController, forKey: "userInput")
+    defaults.setObject(dataFromPage4ViewController, forKey: "userInput3")
     }
     
     // Get data from user.
-    let userInput = defaults.arrayForKey("userInput")
-    let userInputDefaults.text = userInput.descriptionOverride
+    let userInput = defaults.arrayForKey("userInput3")
+    let userInputDefaults.text = userInput3.descriptionOverride
     
     override func viewDidLoad() {
         super.viewDidLoad()
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let FinalViewController : Page2ViewController = segue.destinationViewController as! Page2ViewController
-        FinalViewController.labelFirstWord = userInput.text!
+        let FinalViewController : Page4ViewController = segue.destinationViewController as! Page4ViewController
+        FinalViewController.labelFirstWord = userInput3.text!
     }
+
     
 
     /*
